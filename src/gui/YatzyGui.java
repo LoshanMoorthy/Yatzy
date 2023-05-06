@@ -1,8 +1,7 @@
-/** Yatzy Game - Gruppe 1  **/
-/** Asger Hammond Raffnsøe **/
-/** Loshan Sundaramoorthy  **/
-/** Steffen Køhler Lassen  **/
-/**       18-04-2023       **/
+/**
+* @author Loshan Sundaramoorthy
+* @version 1.0
+* */
 
 package gui;
 

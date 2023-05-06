@@ -1,8 +1,8 @@
-/** Yatzy Game - Gruppe 1  **/
-/** Asger Hammond Raffnsøe **/
-/** Loshan Sundaramoorthy  **/
-/** Steffen Køhler Lassen  **/
-/**       18-04-2023       **/
+/**
+ * @author Loshan Sundaramoorthy
+ * @version 1.0
+ * */
+
 
 package model;
 
@@ -120,6 +120,7 @@ public class YatzyDice {
      * Returns points for one pair (for the face value giving the highest points).<br/>
      * Returns 0, if there aren't 2 dice with the same face value.
      */
+
     public int onePairPoints() {
         int sum = 0;
         for (int i = 0; i < frequency().length; i++) {
