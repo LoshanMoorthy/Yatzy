@@ -197,7 +197,6 @@ public class YatzyGui extends Application {
                 lblResults[i].setMaxWidth(60);
                 lblResults[i].setAlignment(Pos.CENTER_RIGHT);
             }
-
         }
 
         int size = 15;
@@ -256,10 +255,6 @@ public class YatzyGui extends Application {
             txfResults.get(i).setOnMouseClicked(Event -> this.mouseClicked(Event));
         }
         btnThrow.setOnAction(Event -> this.btnThrowAction());
-
-
-
-
     }
 
 
@@ -271,8 +266,6 @@ public class YatzyGui extends Application {
         displayDice();
         throwBtn();
         updateResultFields();
-
-
     }
 
     /** ---------- Sets holdstatus for chosen cbxHolds checkboxes ---------**/
@@ -293,7 +286,6 @@ public class YatzyGui extends Application {
         for (int i = 0; i < cbxHolds.length; i++) {
             cbxHolds[i].setSelected(false);
             holdStatus[i] = false;
-
         }
     }
 
@@ -306,7 +298,6 @@ public class YatzyGui extends Application {
                 txfResults.get(i).setText(Integer.toString(dice.getResults()[i]));
             }
         }
-
     }
 
     /** ---------- Mouseclick method ---------**/
